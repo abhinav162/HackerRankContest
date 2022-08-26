@@ -1,3 +1,5 @@
+https://www.hackerrank.com/contests/cse205-16915-day1/challenges
+
 #include <cmath>
 #include <cstdio>
 #include <vector>
