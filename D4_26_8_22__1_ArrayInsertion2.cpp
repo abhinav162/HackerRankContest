@@ -57,15 +57,22 @@ int insertion(int size, int n)
     int ins;
     cin >> ins;
     int sum = digitSum(ins);
-    if (sum < size)
+
+    // if (sum < size)  //not recommended method
+    // {
+    //     pos = sum;
+    // }
+    // else
+    // {
+    //     sum = digitSum(sum);
+    //     pos = sum;
+    // }
+
+    while(sum > size)
     {
-        pos = sum;
+        sum = digitSum(sum);
     }
-    else
-    {
-        int sum2 = digitSum(sum);
-        pos = sum2;
-    }
+    pos = sum;
 
     for (int j = size; j >= (pos - 1); j--)
     {
