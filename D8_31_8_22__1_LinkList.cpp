@@ -9,7 +9,7 @@ public:
 
 node* insert()
 {
-    node *head,*last;
+    node *head,*newNode,*last;
     head = NULL;
     int num;
     cin >> num;

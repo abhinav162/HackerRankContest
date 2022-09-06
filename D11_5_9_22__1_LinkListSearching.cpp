@@ -16,7 +16,7 @@ node *insert(int n)
         return 0;
     }
 
-    node *head, *tail;
+    node *head, *newNode, *tail;
     head = NULL;
     string ename;
     while (n > 0)
