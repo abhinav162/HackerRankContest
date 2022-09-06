@@ -14,7 +14,7 @@ node *insert(int n)
         return 0;
     }
     
-    node *head, *newNode, *tail;
+    node *head, *tail;
     head = NULL;
     int num;
     while (n > 0)
