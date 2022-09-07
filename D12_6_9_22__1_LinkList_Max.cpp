@@ -11,7 +11,7 @@ node *insert()
 {
     node *head, *last;
     head = NULL;
-    int num,n = 5;
+    int num, n = 5;
     while (n > 0)
     {
         cin >> num;
