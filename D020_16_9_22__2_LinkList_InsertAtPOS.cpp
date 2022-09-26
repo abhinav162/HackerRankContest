@@ -69,9 +69,9 @@ void insertAtPos(node **head_ref, int pos, int marks)
 {
     node *temp = *head_ref;
     node *newNode = new node;
-    int i = 2;
+    int i = 1;
     newNode->data = marks;
-    while (i < pos)
+    while (i < pos-1)
     {
         if (temp->next != NULL)
         {
